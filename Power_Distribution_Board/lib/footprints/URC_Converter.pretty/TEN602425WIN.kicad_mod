@@ -277,7 +277,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3D/TEN_60-2412WIN.stp"
 		(offset
-			(xyz 22.86000027 7.619999771 0.7699999694)
+			(xyz 22.86 7.62 -0.23)
 		)
 		(scale
 			(xyz 1 1 1)

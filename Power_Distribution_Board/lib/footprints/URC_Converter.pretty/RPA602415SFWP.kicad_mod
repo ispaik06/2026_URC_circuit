@@ -277,13 +277,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3D/RPA60-2415SFW_P.stp"
 		(offset
-			(xyz -25.39999924 -12.69999962 11.10000021)
+			(xyz -25.399999 -12.7 10.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

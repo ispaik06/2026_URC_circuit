@@ -1043,11 +1043,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "URC_Converter:DCM3623T75H26C2T00"
+		(symbol "URC_Converter:PKJ7216ZWPI"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
+			(property "Reference" "PS"
 				(at 26.67 7.62 0)
 				(effects
 					(font
@@ -1056,7 +1056,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "DCM3623T75H26C2T00"
+			(property "Value" "PKJ7216ZWPI"
 				(at 26.67 5.08 0)
 				(effects
 					(font
@@ -1065,7 +1065,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "URC_Active:DCM3623T75H26C2T00"
+			(property "Footprint" "PKJ7216ZWPI"
 				(at 26.67 -94.92 0)
 				(effects
 					(font
@@ -1075,7 +1075,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vicorpower.com/documents/datasheets/DCM3623x75H26C2yzz_ds.pdf"
+			(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pkj7200w"
 				(at 26.67 -194.92 0)
 				(effects
 					(font
@@ -1085,7 +1085,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC DC CONVERTER 24V 320.2W"
+			(property "Description" "PKJ 7200W series DC-DC Converters Input 14-160V, Output up to 16.7A / 200W, -40C ~ 115C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1094,7 +1094,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "7.31"
+			(property "Height" "13.208"
 				(at 26.67 -394.92 0)
 				(effects
 					(font
@@ -1104,7 +1104,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "VICOR"
+			(property "Manufacturer_Name" "Flex Power Modules"
 				(at 26.67 -494.92 0)
 				(effects
 					(font
@@ -1114,7 +1114,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "DCM3623T75H26C2T00"
+			(property "Manufacturer_Part_Number" "PKJ7216ZWPI"
 				(at 26.67 -594.92 0)
 				(effects
 					(font
@@ -1124,7 +1124,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "492-DM3623T75H26C2T0"
+			(property "Mouser Part Number" ""
 				(at 26.67 -694.92 0)
 				(effects
 					(font
@@ -1134,7 +1134,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vicor/DCM3623T75H26C2T00?qs=3SnDZBG9J%252B69kHDqSgnvkA%3D%3D"
+			(property "Mouser Price/Stock" ""
 				(at 26.67 -794.92 0)
 				(effects
 					(font
@@ -1164,10 +1164,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DCM3623T75H26C2T00_1_1"
+			(symbol "PKJ7216ZWPI_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 25.4 -12.7)
+					(end 25.4 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1179,14 +1179,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "+IN"
+					(name "MH3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1197,14 +1197,14 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "TR"
+					(name "-OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1215,14 +1215,14 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "EN"
+					(name "-SENSE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1233,14 +1233,14 @@
 				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "FT"
+					(name "VADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1251,14 +1251,50 @@
 				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
-					(name "-IN"
+					(name "+SENSE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E1"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "+OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1269,14 +1305,14 @@
 				(pin passive line
 					(at 30.48 0 180)
 					(length 5.08)
-					(name "+OUT_1"
+					(name "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1287,14 +1323,14 @@
 				(pin passive line
 					(at 30.48 -2.54 180)
 					(length 5.08)
-					(name "-OUT_1"
+					(name "-IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1305,14 +1341,14 @@
 				(pin passive line
 					(at 30.48 -5.08 180)
 					(length 5.08)
-					(name "+OUT_2"
+					(name "CASE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1323,14 +1359,50 @@
 				(pin passive line
 					(at 30.48 -7.62 180)
 					(length 5.08)
-					(name "-OUT_2"
+					(name "RC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D2"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2654,7 +2726,7 @@
 	)
 	(rectangle
 		(start 252.73 148.59)
-		(end 336.55 170.18)
+		(end 345.44 170.18)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -2700,7 +2772,7 @@
 		)
 		(uuid e5a1001f-92f2-4065-bbc4-2275a124d952)
 	)
-	(text "OUTPUT\nVoltage: 24V\nCurrent: 13.34A"
+	(text "OUTPUT\nVoltage: 24V\nCurrent: 8.33A"
 		(exclude_from_sim no)
 		(at 91.44 147.574 0)
 		(effects
@@ -2759,7 +2831,7 @@
 		)
 		(uuid "0c619776-a1b4-4de5-9850-247c341d8d72")
 	)
-	(text "MAX\n24V 13.34A\n320.2W"
+	(text "MAX\n24V 8.33A\n200W"
 		(exclude_from_sim no)
 		(at 113.792 112.522 0)
 		(effects
@@ -2788,9 +2860,9 @@
 		)
 		(uuid "10960491-2262-4caf-8a09-f1215cfaaa36")
 	)
-	(text "INPUT\nVoltage: 36V ~ 75V  [48V]"
+	(text "INPUT\nVoltage: 14V ~ 160V  [48V]"
 		(exclude_from_sim no)
-		(at 81.788 103.886 0)
+		(at 80.264 103.886 0)
 		(effects
 			(font
 				(face "Noto Sans KR")
@@ -2906,9 +2978,9 @@
 		)
 		(uuid "8546f4b7-cdf3-4193-a200-dce8a07522d7")
 	)
-	(text "Operating Temperature: -40°C ~ 125°C\nEfficiency: 91.8%"
+	(text "Operating Temperature: -40°C ~ 115°C\nEfficiency: 90%"
 		(exclude_from_sim no)
-		(at 36.068 149.098 0)
+		(at 35.814 144.526 0)
 		(effects
 			(font
 				(face "Noto Sans KR")
@@ -3081,9 +3153,9 @@
 		)
 		(uuid "bbec55b9-5605-4810-876d-c1a57b547b08")
 	)
-	(text "Remote ON/OFF\nON: at least 2.31VDC or Open\nOFF: maximum 0.99VDC or Short"
+	(text "Remote ON/OFF\nThe standard product is provided with \"negative logic\" RC and\nwill be on when the RC pin is connected to the -In. To turn off\nthe product the RC pin should be left open, or connected to a\nvoltage higher than 2.5 V referenced to -In. In situations where\nit is desired to have the product to power up automatically\nwithout the need for control signals or a switch, the RC pin can\nbe wired directly to -In.\n\n\nhttps://flexpowermodules.com/resources/fpm-techspec-pkj7200w\n"
 		(exclude_from_sim no)
-		(at 36.576 140.462 0)
+		(at 18.542 157.734 0)
 		(effects
 			(font
 				(face "Noto Sans KR")
@@ -3362,6 +3434,12 @@
 		(uuid "63499038-edb9-4614-937d-244f8326015e")
 	)
 	(junction
+		(at 44.45 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65951f5e-b651-414a-acd3-7db694de2af0")
+	)
+	(junction
 		(at 140.97 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3372,6 +3450,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c5b1e74-7ddd-4964-b0f3-82a28976b1e1")
+	)
+	(junction
+		(at 83.82 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e5a794f-c150-4744-ab64-7595369957f2")
 	)
 	(junction
 		(at 265.43 157.48)
@@ -3422,6 +3506,12 @@
 		(uuid "9de19eff-46db-4bfb-b93d-29b25e6df064")
 	)
 	(junction
+		(at 44.45 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab95c696-65f4-4430-a016-3c4ca9d7c2d2")
+	)
+	(junction
 		(at 148.59 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3450,12 +3540,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb2d4dec-7920-45f5-a2c6-7c6614caa1df")
-	)
-	(junction
-		(at 78.74 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bccdd664-80c5-4245-b725-369884035fe0")
 	)
 	(junction
 		(at 270.51 273.05)
@@ -3500,6 +3584,12 @@
 		(uuid "d42b122e-9008-40f3-a922-5f007c8c4b60")
 	)
 	(junction
+		(at 326.39 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d92c18f3-d3fd-4802-adc3-ff3f8ba560f8")
+	)
+	(junction
 		(at 237.49 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3516,18 +3606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc5ffe24-7b60-4061-8207-d79b26c152b7")
-	)
-	(junction
-		(at 77.47 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dde4529b-5cfb-410a-be88-eac4211958ea")
-	)
-	(junction
-		(at 76.2 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5a28415-a055-40e0-8f1f-6917a6261356")
 	)
 	(junction
 		(at 187.96 120.65)
@@ -3566,6 +3644,18 @@
 		(uuid "fcc60b45-f611-4f32-ab5b-19d78f914161")
 	)
 	(no_connect
+		(at 78.74 125.73)
+		(uuid "0e374b44-793f-4a46-878b-d933c364ae3c")
+	)
+	(no_connect
+		(at 48.26 133.35)
+		(uuid "1f3cc4fd-f99c-4926-adbd-0ed6557bfb57")
+	)
+	(no_connect
+		(at 78.74 133.35)
+		(uuid "1f3ccd40-5dd3-46ca-b385-67ecaa86df97")
+	)
+	(no_connect
 		(at 109.22 275.59)
 		(uuid "25f800e7-28e2-42d2-b89c-0a059e656839")
 	)
@@ -3574,16 +3664,16 @@
 		(uuid "42eb69b3-f95f-44b2-81f7-77f0039c6664")
 	)
 	(no_connect
+		(at 78.74 128.27)
+		(uuid "43c3c97b-14ba-49b5-9bf6-f70576d0624b")
+	)
+	(no_connect
 		(at 111.76 43.18)
 		(uuid "5d71a3dd-7cb4-42e6-9373-2c4869d7ced4")
 	)
 	(no_connect
-		(at 44.45 119.38)
-		(uuid "7ff59125-6bcc-41bd-9b03-8ef677a7c93a")
-	)
-	(no_connect
-		(at 44.45 121.92)
-		(uuid "838eb3e3-405a-41bc-b212-c1209e8b5060")
+		(at 78.74 123.19)
+		(uuid "7290e506-b08f-466b-9539-631c25ac2185")
 	)
 	(no_connect
 		(at 138.43 199.39)
@@ -3594,8 +3684,12 @@
 		(uuid "90672de8-013b-4813-ae67-df828f670202")
 	)
 	(no_connect
-		(at 44.45 116.84)
-		(uuid "99f0ebca-f99d-48b3-9c2d-bd986c53fcd5")
+		(at 48.26 120.65)
+		(uuid "bf37dd19-8e2e-4b5f-838b-20ce978060a6")
+	)
+	(no_connect
+		(at 78.74 118.11)
+		(uuid "cf7a7d12-c33d-4679-9280-ba41d3fcc51b")
 	)
 	(no_connect
 		(at 111.76 40.64)
@@ -3610,6 +3704,16 @@
 			(type default)
 		)
 		(uuid "0127bfc9-2181-41cd-b38f-5463d132f714")
+	)
+	(wire
+		(pts
+			(xy 44.45 130.81) (xy 48.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035ca394-d7c9-4865-adda-a206e36a71ec")
 	)
 	(wire
 		(pts
@@ -3630,16 +3734,6 @@
 			(type default)
 		)
 		(uuid "070faaa9-5f0b-419c-854b-0842c8baec38")
-	)
-	(wire
-		(pts
-			(xy 77.47 116.84) (xy 74.93 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab00422-a581-4f87-a76a-a9995191ac62")
 	)
 	(wire
 		(pts
@@ -3670,16 +3764,6 @@
 			(type default)
 		)
 		(uuid "0c541688-3a7a-4760-8033-f3df0dede713")
-	)
-	(wire
-		(pts
-			(xy 41.91 124.46) (xy 41.91 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6eb30c-4e07-45e6-ae3e-75ce9d395039")
 	)
 	(wire
 		(pts
@@ -3803,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 114.3) (xy 44.45 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b691875-dca9-490d-95d7-ee97d88af893")
-	)
-	(wire
-		(pts
 			(xy 280.67 157.48) (xy 288.29 157.48)
 		)
 		(stroke
@@ -3830,16 +3904,6 @@
 			(type default)
 		)
 		(uuid "1ec17158-e1ed-43b3-a42c-1cb88a6ca8a6")
-	)
-	(wire
-		(pts
-			(xy 74.93 114.3) (xy 76.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f4fc8ec-ddd1-4b77-85bd-c7afbd5a25b6")
 	)
 	(wire
 		(pts
@@ -3933,16 +3997,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 121.92) (xy 77.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b88dc79-978d-4c29-bd42-c4767f3a696f")
-	)
-	(wire
-		(pts
 			(xy 303.53 157.48) (xy 311.15 157.48)
 		)
 		(stroke
@@ -3950,6 +4004,16 @@
 			(type default)
 		)
 		(uuid "2cf7b834-f033-4754-b6fc-a26566696111")
+	)
+	(wire
+		(pts
+			(xy 44.45 128.27) (xy 44.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1a7958-2b9a-439f-82f0-fc75a1f49afe")
 	)
 	(wire
 		(pts
@@ -4030,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "3f361733-db4e-44fb-b78e-d9ad2f1948d6")
+	)
+	(wire
+		(pts
+			(xy 41.91 123.19) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b949f5-4557-42c1-922f-3e55ef009f88")
 	)
 	(wire
 		(pts
@@ -4213,6 +4287,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603ef2cc-6d8a-446b-b4e7-ade55c4417d9")
+	)
+	(wire
+		(pts
 			(xy 234.95 80.01) (xy 234.95 81.28)
 		)
 		(stroke
@@ -4230,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "646cabe9-4392-4d53-ad1a-c90ae769f981")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 81.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a858046-c119-4039-920a-bb002591a91d")
 	)
 	(wire
 		(pts
@@ -4373,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 130.81) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89de745e-399c-4493-a7d0-f1439a8b5d8d")
+	)
+	(wire
+		(pts
 			(xy 144.78 48.26) (xy 147.32 48.26)
 		)
 		(stroke
@@ -4433,16 +4537,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 77.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9215613b-feb8-42e8-a2c1-1fb0739937bf")
-	)
-	(wire
-		(pts
 			(xy 66.04 278.13) (xy 66.04 273.05)
 		)
 		(stroke
@@ -4493,6 +4587,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 125.73) (xy 48.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac94b9c4-6f49-4cdf-a892-29a305d0d71c")
+	)
+	(wire
+		(pts
 			(xy 38.1 44.45) (xy 38.1 48.26)
 		)
 		(stroke
@@ -4523,26 +4627,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 119.38) (xy 76.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b14807ad-855c-4760-96b1-4186226c93b9")
-	)
-	(wire
-		(pts
-			(xy 76.2 119.38) (xy 76.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2760de5-0b92-40f5-8e70-b08e2f0719dd")
-	)
-	(wire
-		(pts
 			(xy 265.43 157.48) (xy 273.05 157.48)
 		)
 		(stroke
@@ -4550,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "b3147607-a926-4f7d-8199-f17fb1df940c")
+	)
+	(wire
+		(pts
+			(xy 326.39 157.48) (xy 335.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4510f53-01be-4230-865c-170a4556f0bf")
 	)
 	(wire
 		(pts
@@ -4743,16 +4837,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 124.46) (xy 44.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83b6678-f9f3-4816-820d-5edb02bd8133")
-	)
-	(wire
-		(pts
 			(xy 231.14 76.2) (xy 231.14 80.01)
 		)
 		(stroke
@@ -4823,13 +4907,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 116.84) (xy 77.47 121.92)
+			(xy 44.45 128.27) (xy 48.26 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dddefbec-086e-4168-9ada-e0cfb72343ff")
+		(uuid "dde33e34-7406-4190-8c58-324b44a97d72")
 	)
 	(wire
 		(pts
@@ -4860,6 +4944,16 @@
 			(type default)
 		)
 		(uuid "e759236e-2ff2-45b0-bed4-dff99c67d203")
+	)
+	(wire
+		(pts
+			(xy 48.26 123.19) (xy 41.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1539d8-6092-4d3c-88d5-b7a4ca26d53c")
 	)
 	(wire
 		(pts
@@ -4903,13 +4997,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 78.74 114.3)
+			(xy 44.45 125.73) (xy 44.45 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee458c30-a94e-4052-87d4-90ceb742497b")
+		(uuid "ee1192cf-a2d7-46a9-8b01-9df97bff2a81")
+	)
+	(wire
+		(pts
+			(xy 44.45 130.81) (xy 44.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41716ed-8b76-41b2-a812-6683b5699684")
 	)
 	(wire
 		(pts
@@ -7638,7 +7742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWM"
+		(property "Footprint" "URC_Conn:XT60PWM"
 			(at 41.91 136.83 0)
 			(effects
 				(font
@@ -7768,6 +7872,82 @@
 			(project ""
 				(path "/b04c1b42-b193-4871-92ed-4a9997db7d19/ee94aa12-ef3c-4abf-a1f1-2bb859616374"
 					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 335.28 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "030498f7-9cee-4aac-91b4-b59be91b7f5b")
+		(property "Reference" "H11"
+			(at 337.82 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 337.82 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field" ""
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa379e2-ea6a-405b-8383-c5b6d42f0073")
+		)
+		(instances
+			(project "Power_Distribution_Board"
+				(path "/b04c1b42-b193-4871-92ed-4a9997db7d19/ee94aa12-ef3c-4abf-a1f1-2bb859616374"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -8025,7 +8205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 185.42 240.97 0)
 			(effects
 				(font
@@ -8345,7 +8525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 226.06 136.83 0)
 			(effects
 				(font
@@ -8554,7 +8734,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 78.74 114.3 0)
+		(at 83.82 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8563,7 +8743,7 @@
 		(fields_autoplaced yes)
 		(uuid "14876867-9f39-434f-99e3-20835d18246a")
 		(property "Reference" "#PWR019"
-			(at 78.74 118.11 0)
+			(at 83.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8752,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 78.74 109.22 0)
+			(at 83.82 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 114.3 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +8769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 114.3 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 78.74 114.3 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,182 +8871,6 @@
 			(project "Power_Distribution_Board"
 				(path "/b04c1b42-b193-4871-92ed-4a9997db7d19/ee94aa12-ef3c-4abf-a1f1-2bb859616374"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "URC_Converter:DCM3623T75H26C2T00")
-		(at 44.45 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14d521ef-a640-4e2f-8d1b-89a53ca9d813")
-		(property "Reference" "J5"
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DCM3623T75H26C2T00"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "URC_Active:DCM3623T75H26C2T00"
-			(at 71.12 209.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vicorpower.com/documents/datasheets/DCM3623x75H26C2yzz_ds.pdf"
-			(at 71.12 309.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC DC CONVERTER 24V 320.2W"
-			(at 44.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.31"
-			(at 71.12 509.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "VICOR"
-			(at 71.12 609.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DCM3623T75H26C2T00"
-			(at 71.12 709.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "492-DM3623T75H26C2T0"
-			(at 71.12 809.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vicor/DCM3623T75H26C2T00?qs=3SnDZBG9J%252B69kHDqSgnvkA%3D%3D"
-			(at 71.12 909.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 71.12 1009.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 71.12 1109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Field" ""
-			(at 44.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C2"
-			(uuid "522b9c2f-d4f8-46c4-903a-b48e662b657c")
-		)
-		(pin "D1"
-			(uuid "9a8d7ef3-a8e1-4377-bfee-38a2a00a7aba")
-		)
-		(pin "B2"
-			(uuid "67674a4c-982f-41f5-9a6c-19bcc3fa7b71")
-		)
-		(pin "C1"
-			(uuid "78b950df-9c8e-4773-864c-8b31985d0dd1")
-		)
-		(pin "A2"
-			(uuid "13b67ad8-c6b8-421f-97c2-33edf650c659")
-		)
-		(pin "A1"
-			(uuid "76a64d96-b693-42cc-b0b7-1c3661084591")
-		)
-		(pin "B1"
-			(uuid "a50be77c-2495-4be6-b3c6-4507863cc369")
-		)
-		(pin "E1"
-			(uuid "73cf480e-0e37-4f68-90e3-f2e8db590686")
-		)
-		(pin "D2"
-			(uuid "b79a33d9-97da-4205-b115-e5902c9b1194")
-		)
-		(instances
-			(project "untitled"
-				(path "/20e275f9-ce7b-4aa5-ad28-f5d40ec4696b"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/b04c1b42-b193-4871-92ed-4a9997db7d19/ee94aa12-ef3c-4abf-a1f1-2bb859616374"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9125,7 +9129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT30PWF"
+		(property "Footprint" "URC_Conn:XT30PWF"
 			(at 180.34 365.43 0)
 			(effects
 				(font
@@ -9286,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 250.19 293.04 0)
 			(effects
 				(font
@@ -10180,7 +10184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 238.76 213.03 0)
 			(effects
 				(font
@@ -10341,7 +10345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 107.95 135.56 0)
 			(effects
 				(font
@@ -10543,7 +10547,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 41.91 114.3 0)
+		(at 41.91 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10551,7 +10555,7 @@
 		(dnp no)
 		(uuid "2c0e3c35-7a55-4cf5-8d70-b52bfa778582")
 		(property "Reference" "#PWR04"
-			(at 41.91 118.11 0)
+			(at 41.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10564,7 @@
 			)
 		)
 		(property "Value" "PVDD"
-			(at 41.91 109.22 0)
+			(at 41.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 114.3 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +10582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 114.3 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 41.91 114.3 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 281.94 293.04 0)
 			(effects
 				(font
@@ -12289,7 +12293,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 125.73 0)
+		(at 81.28 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12298,7 +12302,7 @@
 		(fields_autoplaced yes)
 		(uuid "5412b22e-b6f9-4a0d-a757-514c78c6de94")
 		(property "Reference" "#PWR023"
-			(at 77.47 132.08 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12311,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 130.81 0)
+			(at 81.28 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +12319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 125.73 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12324,7 +12328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 125.73 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12333,7 +12337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 125.73 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13044,7 +13048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 154.94 213.03 0)
 			(effects
 				(font
@@ -13425,7 +13429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 167.64 168.58 0)
 			(effects
 				(font
@@ -13723,7 +13727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 227.33 168.58 0)
 			(effects
 				(font
@@ -14068,6 +14072,178 @@
 		)
 	)
 	(symbol
+		(lib_id "URC_Converter:PKJ7216ZWPI")
+		(at 78.74 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73d52b55-cb8a-42b0-94e0-f768afbcb608")
+		(property "Reference" "PS4"
+			(at 63.7688 114.0743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PKJ7216ZWPI"
+			(at 63.7688 111.5343 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PKJ7216ZWPI"
+			(at 52.07 38.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pkj7200w"
+			(at 52.07 -61.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PKJ 7200W series DC-DC Converters Input 14-160V, Output up to 16.7A / 200W, -40C ~ 115C"
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.208"
+			(at 52.07 -261.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Flex Power Modules"
+			(at 52.07 -361.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PKJ7216ZWPI"
+			(at 52.07 -461.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 52.07 -561.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 52.07 -661.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 52.07 -761.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 52.07 -861.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "022e467d-2190-4e12-8525-88b968d2888e")
+		)
+		(pin "12"
+			(uuid "9de33b7e-6771-4714-9f1b-74a6bab33f0f")
+		)
+		(pin "5"
+			(uuid "a40c922b-1977-4550-8548-d1fd47dc3557")
+		)
+		(pin "7"
+			(uuid "a552f309-6209-4c94-8ea4-9527025b92cb")
+		)
+		(pin "8"
+			(uuid "b969bb71-eecd-4433-b021-338ab30fd318")
+		)
+		(pin "9"
+			(uuid "1372686e-5d9f-4dd3-ab97-c960d47858af")
+		)
+		(pin "13"
+			(uuid "de1626aa-d881-4aa6-9c33-f425b7d02965")
+		)
+		(pin "11"
+			(uuid "3b3431b3-9b20-4d0d-9da4-fffac3ecc072")
+		)
+		(pin "4"
+			(uuid "d282d87f-7110-4951-ba15-b53a53ea1467")
+		)
+		(pin "3"
+			(uuid "9587ca05-b27e-4671-af40-bddc03bd5f8b")
+		)
+		(pin "2"
+			(uuid "6ed9664c-0ffc-49bf-b79d-90af6556613b")
+		)
+		(pin "1"
+			(uuid "f587ee92-5788-41f5-b1e3-d10aa51f2bb9")
+		)
+		(pin "10"
+			(uuid "1d05ef6f-764d-4d63-b97e-51412a91b708")
+		)
+		(instances
+			(project ""
+				(path "/b04c1b42-b193-4871-92ed-4a9997db7d19/ee94aa12-ef3c-4abf-a1f1-2bb859616374"
+					(reference "PS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 191.77 118.11 0)
 		(unit 1)
@@ -14165,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT30PWF"
+		(property "Footprint" "URC_Conn:XT30PWF"
 			(at 238.76 365.43 0)
 			(effects
 				(font
@@ -14402,7 +14578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 210.82 213.03 0)
 			(effects
 				(font
@@ -14563,7 +14739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 217.17 293.04 0)
 			(effects
 				(font
@@ -15156,7 +15332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 255.27 136.83 0)
 			(effects
 				(font
@@ -15925,7 +16101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 256.54 168.58 0)
 			(effects
 				(font
@@ -16228,7 +16404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 198.12 168.58 0)
 			(effects
 				(font
@@ -16454,7 +16630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT30PWF"
+		(property "Footprint" "URC_Conn:XT30PWF"
 			(at 322.58 365.43 0)
 			(effects
 				(font
@@ -16831,7 +17007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 184.15 213.03 0)
 			(effects
 				(font
@@ -17512,7 +17688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT30PWF"
+		(property "Footprint" "URC_Conn:XT30PWF"
 			(at 210.82 365.43 0)
 			(effects
 				(font
@@ -17744,7 +17920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT30PWF"
+		(property "Footprint" "URC_Conn:XT30PWF"
 			(at 266.7 365.43 0)
 			(effects
 				(font
@@ -18120,7 +18296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 196.85 136.83 0)
 			(effects
 				(font
@@ -18497,7 +18673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 314.96 293.04 0)
 			(effects
 				(font
@@ -18877,7 +19053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT30PWF"
+		(property "Footprint" "URC_Conn:XT30PWF"
 			(at 294.64 365.43 0)
 			(effects
 				(font
@@ -19037,7 +19213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 153.67 240.97 0)
 			(effects
 				(font
@@ -19633,7 +19809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 215.9 242.24 0)
 			(effects
 				(font
@@ -20102,7 +20278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "URC_Con:XT60PWF"
+		(property "Footprint" "URC_Conn:XT60PWF"
 			(at 166.37 136.83 0)
 			(effects
 				(font
@@ -20239,7 +20415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 125.73 0)
+		(at 44.45 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20248,7 +20424,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebb71409-e68c-432b-8371-754c53711025")
 		(property "Reference" "#PWR09"
-			(at 41.91 132.08 0)
+			(at 44.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,7 +20433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 130.81 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20265,7 +20441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 125.73 0)
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20274,7 +20450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 125.73 0)
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,7 +20459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 125.73 0)
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20383,7 +20559,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 78.74 114.3 270)
+		(at 83.82 120.65 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20392,7 +20568,7 @@
 		(dnp no)
 		(uuid "ee94cd84-6316-461e-8924-e56f2fe4a287")
 		(property "Reference" "#FLG04"
-			(at 80.645 114.3 0)
+			(at 85.725 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20401,7 +20577,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 83.82 114.3 0)
+			(at 88.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20409,7 +20585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 114.3 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20418,7 +20594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 114.3 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20427,7 +20603,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 78.74 114.3 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
