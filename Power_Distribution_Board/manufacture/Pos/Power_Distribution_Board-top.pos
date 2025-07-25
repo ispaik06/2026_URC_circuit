@@ -1,0 +1,43 @@
+### Footprint positions - created on 2025-07-22T14:01:19+0900 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                   PosX       PosY       Rot  Side
+D1        LED_/_0805_/_RED     LED_0805_2012Metric   109.4375  -202.5000    0.0000  top
+D2        LED_/_0805_/_YELLOW  LED_0805_2012Metric    78.5625  -201.0000    0.0000  top
+D3        LED_/_0805_/_GREEN   LED_0805_2012Metric   123.9375   -71.0000  180.0000  top
+D4        LED_/_0805_/_GREEN   LED_0805_2012Metric   162.0834   -69.9166    0.0000  top
+D5        LED_/_0805_/_GREEN   LED_0805_2012Metric   203.8250   -69.6750    0.0000  top
+J1        XT60PW-F             XT60PWF                70.5000  -153.7600   90.0000  top
+J2        XT60PW-F             XT60PWF               217.5000  -197.6500  -90.0000  top
+J3        XT60PW-F             XT60PWF                70.5000  -195.3500   90.0000  top
+J4        XT60PW-F             XT60PWF               152.1000  -194.9250  180.0000  top
+J6        XT60PW-F             XT60PWF                64.9700   -64.0000    0.0000  top
+J7        XT60PW-F             XT60PWF                70.5000   -91.3750   90.0000  top
+J8        XT60PW-F             XT60PWF                70.5000  -112.1700   90.0000  top
+J9        XT60PW-F             XT60PWF                70.5000  -132.9650   90.0000  top
+J10       XT60PW-F             XT60PWF               217.5000  -134.0500  -90.0000  top
+J11       XT60PW-F             XT60PWF                99.0000  -194.9250  180.0000  top
+J12       XT60PW-F             XT60PWF               147.6900   -64.0000    0.0000  top
+J13       XT60PW-F             XT60PWF               168.3700   -64.0000    0.0000  top
+J14       XT60PW-F             XT60PWF               217.5000  -155.1500  -90.0000  top
+J15       XT30PW-F             XT30PWF               188.5000   -63.6375    0.0000  top
+J16       XT30PW-F             XT30PWF               204.0000   -63.6375    0.0000  top
+J17       XT30PW-F             XT30PWF               219.5000   -63.6375    0.0000  top
+J18       XT30PW-F             XT30PWF               218.5000   -84.1000  -90.0000  top
+J19       XT30PW-F             XT30PWF               218.5000  -100.5000  -90.0000  top
+J20       XT30PW-F             XT30PWF               218.5000  -116.9000  -90.0000  top
+J21       XT60PW-F             XT60PWF               194.3500  -194.9250  180.0000  top
+J22       XT60PW-F             XT60PWF                70.5000  -174.5550   90.0000  top
+J23       XT60PW-F             XT60PWF               217.5000  -176.4000  -90.0000  top
+J24       XT60PW-F             XT60PWF               173.2250  -194.9250  180.0000  top
+J25       XT60PW-F             XT60PWF                85.6500   -64.0000    0.0000  top
+J26       XT60PW-F             XT60PWF               106.3300   -64.0000    0.0000  top
+J27       XT60PW-F             XT60PWF               127.0100   -64.0000    0.0000  top
+PS1       XT60PW-M             XT60PWM               122.3000  -194.5000    0.0000  top
+R1        10kF/(1/10W)/1608    R_0603_1608Metric     113.1750  -202.5000  180.0000  top
+R2        10kF/(1/10W)/1608    R_0603_1608Metric      82.1750  -201.0000  180.0000  top
+R3        10kF/(1/10W)/1608    R_0603_1608Metric     120.3750   -71.0000    0.0000  top
+R4        10kF/(1/10W)/1608    R_0603_1608Metric     166.0625   -70.0000  180.0000  top
+R5        10kF/(1/10W)/1608    R_0603_1608Metric     207.3875   -69.5000  180.0000  top
+## End

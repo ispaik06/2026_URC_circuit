@@ -1,0 +1,9 @@
+### Footprint positions - created on 2025-07-22T14:01:19+0900 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                 Package                  PosX       PosY       Rot  Side
+J5        DCM3623T75H26C2T00  DCM3623T75H26C2T00    95.0000  -131.0000   90.0000  bottom
+PS2       TEN_60-2412WIN      TEN602425WIN         136.7800  -104.7200    0.0000  bottom
+PS3       RPA60-2415SFW_P     RPA602415SFWP        128.1400   -84.7025    0.0000  bottom
+## End

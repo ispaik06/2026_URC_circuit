@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "URC_Con")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/URC_Con.kicad_sym")(options "")(descr ""))
+  (lib (name "URC_Converter")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/URC_Converter.kicad_sym")(options "")(descr ""))
+)
